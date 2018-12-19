@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>抱歉，系统发生了错误</title>
+</head>
+<body>
+    <div>错误码：<span th:text="${errCode}"></span></div>
+    <div>错误原因：<span th:text="${errMsg}"></span></div>
+    <div>您可能能从这里解决问题或获得帮助：<span th:text="${recover}"></span></div>
+    <div>错误ID：<span th:text="${errId}"></span></div>
+</body>
+</html>
